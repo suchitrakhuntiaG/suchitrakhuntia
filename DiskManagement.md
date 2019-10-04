@@ -18,5 +18,14 @@
     5. For persistent mount the entry needs to be added to `/etc/fstab`
     	- run `sudo blkid` to find the UUID of the newly created partition
     	- edit `/etc/fstab`
-    	UUID=<UID-of-new-partition-as-per-blkid>  /datadrive   ext4   defaults,nofail   1   2
+    	`UUID=<UID-of-new-partition-as-per-blkid>  /mnt/drive   ext4   defaults,nofail   1   2`
+    6. Reboot the system
+    7. Now you should see the drive in /mnt/drive directory
+    8. To get the write permissions follow the below steps
+    	- Change Group ownership to adm group
+    		`sudo chgrp adm /mnt/data/`
+    	- Give write permissions to the group
+    		`sudo chmod +R  g+w /mnt/data/`
+
+
 
