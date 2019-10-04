@@ -27,9 +27,5 @@
     	- Give write permissions to the group
     		`sudo chmod +R  g+w /mnt/data/`
 
-Is this the `new code`
-
-
-`code block`
 
 
