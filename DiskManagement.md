@@ -25,7 +25,7 @@
     	- Change Group ownership to adm group
     		`sudo chgrp adm /mnt/data/`
     	- Give write permissions to the group
-    		`sudo chmod g+w /mnt/data/`
+    		`sudo chmod -R g+w /mnt/data/`
 
 
 
