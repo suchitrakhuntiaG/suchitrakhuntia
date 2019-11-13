@@ -11,7 +11,7 @@
     3. Now run the below command to format the partition
     	`sudo mkfs -t ext4 /dev/sdc1`
     4. Now the file can be mounted to any directory
-    	- Create a new directory `sudo /mnt/drive`
+    	- Create a new directory `sudo mkdir /mnt/drive`
     	- mount the new volume to the directory using the below command
     	  `sudo mount /dev/sdx1 /mnt/drive`
     	  Note: This is only an one time mount. Will not persist after restart
@@ -25,7 +25,7 @@
     	- Change Group ownership to adm group
     		`sudo chgrp adm /mnt/data/`
     	- Give write permissions to the group
-    		`sudo chmod +R  g+w /mnt/data/`
+    		`sudo chmod -R g+w /mnt/data/`
 
 
 
