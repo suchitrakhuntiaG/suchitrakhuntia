@@ -27,9 +27,10 @@
 7. Now you should see the drive in /mnt/drive directory
 
 8. To get the write permissions follow the below steps
-    	- Change Group ownership to adm group
-    		`sudo chgrp adm /mnt/data/`
-    	- Give write permissions to the group
+
+        - Change Group ownership to adm group
+            `sudo chgrp adm /mnt/data/`
+        - Give write permissions to the group
     		`sudo chmod -R g+w /mnt/data/`
 
 
