@@ -11,13 +11,16 @@
 3. Now run the below command to format the partition
     	`sudo mkfs -t ext4 /dev/sdc1`
 4. Now the file can be mounted to any directory
-    	- Create a new directory `sudo mkdir /mnt/drive`
+    	- Create a new directory 
+            `sudo mkdir /mnt/drive`
     	- mount the new volume to the directory using the below command
-    	  `sudo mount /dev/sdx1 /mnt/drive`
-    	  Note: This is only an one time mount. Will not persist after restart
+    	   `sudo mount /dev/sdx1 /mnt/drive`
+    	  Note: This is only an one time mount. Will not persist after restart.
+
 5. For persistent mount the entry needs to be added to `/etc/fstab`
-    	- run `sudo blkid` to find the UUID of the newly created partition
-    	- edit `/etc/fstab`
+    	- run the below command to find the UUID of the newly created partition
+             `sudo blkid`  
+    	- edit `/etc/fstab` and add the below line. 
     	`UUID=<UID-of-new-partition-as-per-blkid>  /mnt/drive   ext4 defaults,nofail   1   2`
 6. Reboot the system
 
