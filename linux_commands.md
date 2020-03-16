@@ -1,7 +1,5 @@
 Linux is case sensitive, most of the commands are in lower case
 
-
-
 Print working directory shows the current directory
 
 `pwd`
@@ -23,6 +21,9 @@ Create an empty file
 
 `touch <filename>`
 
+`vim`
+`nano`
+
 
 
 The syntax of linux command
@@ -31,51 +32,44 @@ The syntax of linux command
 
 touch <filename>
  
+`su <username>`
+
+Switch user
+
+`wc` - Word Count - Prints the number of lines, characters and bytes
+
+`man` - Manual Pages. Help for every linux command and tool
+
+`find` - searches for files or directories in the subdirectories
+
+examples:
+
+find -type [f|d] -name <string>
 
 
-Hidden /Protected files
-
-ls -a 
+Pipe
 
 
+pipe takes teh output of the command on the left side and gives it as a input to the command on the right.
 
-c:
-d:
+Unix - Do one thing at a time and Do it right
 
+Redirections :
 
-
-c:\users\<username>
-
-	c:\users\rinkyuday
-	c:\users\injumuri
-
-	/home/<username>
-	/home/baddi
-
-	/home/ubuntu
+> - Output redirector
+>> - Appends output to the file
 
 
-c:
-	windows
-	Program Files
-	temp
-	users
-	Program Data
-
-c:\users\rinky
+< - Input redirector
 
 
-/   - root
-	/home
-	/bin
-	/lib
-	/etc  
-	/var
-	/tmp
-	/dev
-	/usr
-	/srv
+File Permissions
 
-/home/baddi
+
+
+
+
+
+
 
 
