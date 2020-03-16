@@ -21,7 +21,7 @@ sudo yum install git -y
 
 #### Windows
 
-Go to [https://git-scm.com/download/win](git download page) and save the file and run it.
+Go to [Git downloads page](https://git-scm.com/download/win)  and save the file and run it.
 
 
 ## Setup
