@@ -17,10 +17,10 @@ While, Ansible can be run from any machine including laptops, it is recommended 
 Including Debian, Ubuntu, Mint, Kali etc
 
 ```bash
- sudo apt update
- sudo apt install software-properties-common
- sudo apt-add-repository --yes --update ppa:ansible/ansible
- sudo apt install ansible
+sudo apt update
+sudo apt install software-properties-common
+sudo apt-add-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
 ```
 
 
@@ -47,3 +47,31 @@ cd ./ansible
 make rpm
 sudo rpm -Uvh ./rpm-build/ansible-*.noarch.rpm
 ```
+
+
+
+
+## Set up Control Nodes
+
+Enable Public Key authentication
+F_VAR_a
+ssh into managed nodes. Add the public key of the Control node to all the Managed nodes
+Also enable `Pubkeyauthentication`
+
+
+go into `/etc/ssh/sshd_config` and change `Pubkeyauthentication` to yes
+
+Restart ssh service
+`sudo systemctl restart ssh`
+
+
+
+
+
+
+
+
+
+
+
+
