@@ -126,8 +126,18 @@ git remote add origin git@github.com:kiranbaddi/gitdemo.git
 
 
 
+## Branching
 
 
+List out all current branches
+
+```bash
+git branch
+```
+
+```bash
+git checkout -b feature-212
+```
 
 
 

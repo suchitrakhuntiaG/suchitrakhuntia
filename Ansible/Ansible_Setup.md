@@ -53,11 +53,11 @@ sudo rpm -Uvh ./rpm-build/ansible-*.noarch.rpm
 
 ## Set up Control Nodes
 
-Enable Public Key authentication
-F_VAR_a
-ssh into managed nodes. Add the public key of the Control node to all the Managed nodes
-Also enable `Pubkeyauthentication`
+### Enable Public Key authentication
 
+ssh into managed nodes. Add the public key of the Control node to all the Managed nodes
+
+Also enable `Pubkeyauthentication`
 
 go into `/etc/ssh/sshd_config` and change `Pubkeyauthentication` to yes
 

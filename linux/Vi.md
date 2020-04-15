@@ -47,7 +47,7 @@ gg      	--> Takes to the top of the page
 
 /<string>	--> To search for a string
 
-:s/<string>/<replacement>/g  --> Searches string and replaces wiht the replacement on current line
+:s//<string/>//<replacement/>/g  --> Searches string and replaces wiht the replacement on current line
 
-:%s/<string>/<replacement>/g  --> Searches string and replaces wiht the replacement through out the file
+:%s//<string/>//<replacement/>/g  --> Searches string and replaces wiht the replacement through out the file
 

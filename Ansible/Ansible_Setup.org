@@ -1,0 +1,8 @@
+* Ansible Setup
+
+
+** Control Machine Requirements
+
+
+** Installation
+

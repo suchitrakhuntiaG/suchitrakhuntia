@@ -1,5 +1,5 @@
 # Disk Management
- 
+
 ### Partitioning the disk
 
 1. use fdisk to list the disks

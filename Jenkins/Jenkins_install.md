@@ -1,18 +1,18 @@
 # Jenkins Installation
 
+[Official Documentation](https://jenkins.io/doc/book/installing/#debian-ubuntu)
 
 ## Ubuntu
 
-Pre-requisite Java
+### Pre-requisite Java
 
+```bash
+sudo apt install openjdk-8-jre-headless`
+```
 
-`sudo apt install openjdk-8-jre-headless`
-
-
-Install Jenkins
+### Install Jenkins
 
 https://jenkins.io/doc/book/installing/#debian-ubuntu
-
 
 ```bash
 wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
@@ -20,12 +20,7 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sour
 sudo apt-get update
 sudo apt-get install jenkins
 ```
-
-
-
-
 ## CentOS
-
 
 ### Pre-requisites - Java
 
@@ -47,11 +42,6 @@ sudo systemctl start jenkins
 sudo systemctl enable jenkins
 ```
 
-
-
-
-Get initial admin password
-
 ```bash
 cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
@@ -60,12 +50,4 @@ Access your Jenkins application on a brower
 
 `http:<server-ip>:8080`
 
-
-
-
-
-
-
-
-
-cf99821a60d144949aeaf223ea450e73
+Enter intial password. 

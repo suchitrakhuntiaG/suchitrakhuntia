@@ -7,7 +7,7 @@
 Any *nix machine with python can be used as a Ansible Control node. Install Ansible and you're ready to go with a few configurations.
 
 
-### Managed Nodes
+### Managed Node
 
 Any network devices or servers that is managed with Ansible is called as Managed Node. They are referred to as hosts. No Ansible agent needs to be installed on the worker nodes.
 
@@ -30,7 +30,7 @@ Tasks can be run ad-hoc
 
 A list of tasks together is known as a Playbook. 
 They are written in YAML.
-Playbooks can also include variables along withtasks.
+Playbooks can also include variables along with tasks.
 
 
 ## Installing Ansible.
