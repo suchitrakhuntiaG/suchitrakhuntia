@@ -1,0 +1,23 @@
+Terraform Download 
+
+
+terraform.io
+https://www.terraform.io/downloads.html
+
+
+Linux Installation
+
+wget https://releases.hashicorp.com/terraform/0.12.25/terraform_0.12.25_linux_amd64.zip
+unzip terraform_0.12.25_linux_amd64.zip
+
+
+
+Windows Installation
+
+
+
+Basic commands
+
+terraform init
+terraform plan
+terraform apply 
