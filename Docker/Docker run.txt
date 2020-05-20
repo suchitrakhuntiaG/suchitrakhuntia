@@ -1,0 +1,3 @@
+$ docker run --name test -it ubuntu
+
+This example runs a container named test using the ubuntu:latest image
